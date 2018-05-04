@@ -1,0 +1,723 @@
+
+.bg-light#navBarColor {
+	background-color: CornflowerBlue !important;
+}
+
+
+#title1 {
+	margin-top: 3%;
+	margin-bottom: 2%;
+	margin-left: 35%;
+}
+
+#title2 {
+	font-style: italic;
+	color: DarkGrey;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	margin-left: 35%;
+}
+
+a#navInscription {
+	width: 60% !important;
+	margin-bottom: 2% !important;
+	margin-left: 35% !important;
+}
+
+#form_accueil {
+	width: 60%;
+	margin-left: 20%;
+}
+#form_sign_in {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.navbar#navInscription {
+	width: 60%;
+	margin-left: 20%;
+}
+.navbar#navInscription2 {
+	width: 60%;
+	margin-left: 20%;
+}
+
+#navbarNav {
+	margin-left: 40%;
+}
+#navbarNav2{
+	margin-left: 40%;
+}
+
+.btn#button {
+	margin-left: 40%;
+	background-color: CornflowerBlue !important;
+	border-color: CornflowerBlue !important;
+}
+.btn#button2 {
+	margin-left: 40%;
+	background-color: CornflowerBlue !important;
+	border-color: CornflowerBlue !important;
+}
+
+		/*Styling Messages*/
+
+#con-msg {
+	margin-top: 3em;
+}
+#sel-msg{
+	border: 1px groove Lightgrey;
+}
+#text-msg {
+	width: 100%;
+    height: 100px;
+    border: 1px groove LightGrey;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+#but-msg {
+	margin-left: 40%;
+}
+		/*Styling account/profile*/
+
+#nav{
+	background-color: cornflowerblue !important;
+	color: white !important;
+}
+.navbar-fixed-top {
+	top: 0;
+	border-width: 4px 20px 5px;
+}
+.navcolor {
+	color: white;
+}
+.navbar-form{
+	display: inline;
+}
+
+.btn#button3 {
+	margin-left: 40%;
+}
+.banner{
+	width: 100%;
+}
+#imgProfil{
+	border-radius: 2%;
+}
+.card{
+	width: 18rem;
+	margin-left: 13% !important;
+	margin-top: 4% !important;
+	margin-bottom: 2% !important;
+}
+.dropdown#optionCompte {
+	margin-bottom: 2% !important;
+}
+
+#left {
+	margin-bottom: 10%;
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	background-color: cornflowerblue;
+}
+
+.container#right {
+	margin-left: 5%;
+	width: 60%;
+	float: left;
+	border-left: 2px solid cornflowerblue;
+	border-right: 2px solid cornflowerblue;
+	margin-top: 1%;
+}
+#title1Profil {
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	
+}
+
+#title2Profil {
+	text-align: center;
+	font-style: italic;
+	color: DarkGrey;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	
+}
+
+#testProfil1 {
+	background-color: #E6ECF0;
+	border-radius: 10px;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	width: 65%;
+}
+
+#passForm, #emailForm {
+	display: none;
+}
+
+     /*  Styling Tweets   */
+
+#test {
+	background-color: #E6ECF0;
+	border-radius: 10px;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-top: 5%;
+	margin-left: 30%;
+	width: 65%;
+}
+#test2 {
+	background-color: #E6ECF0;
+	border-radius: 10px;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-left: 30%;
+	width: 65%;
+}
+
+#div-tweets {
+	background-color: #E6ECF0;
+
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*#formTweets {
+margin-bottom: 100px;
+}*/
+
+.tweet {
+	border: 1px solid Black;
+	background-color: White;
+	margin-top: 2%;
+	list-style-type: none;
+}
+
+.userNames {
+	font-weight: bold;
+}
+.displayName {
+	color: #657786;
+}
+
+.tweetDate {
+	color: #b7babd;
+	font-size: 14px;
+	list-style-type: none;
+}
+
+li.tweet {
+	list-style-type: none;
+}
+
+.form-group#col18 {
+	margin-top: 2%;
+	width: 50% !important;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#singlebutton{
+	padding: 2%;
+	margin-top: 5%;
+	margin-left: 7%;
+}
+
+/*#singlebutton{
+padding: 4%;
+margin-top: 14%;
+margin-left: -40%;
+}*/
+
+.form-row {
+	margin-top: 3%;
+	margin-right: -20px !important;
+	margin-left: 30px !important;
+}
+
+.headerReTweet p{
+	font-size: 12px;
+	font-style: italic;
+	float: left;
+}
+
+#retweet_icon_head {
+	float: left;
+	margin-right: 7px;
+	margin-top: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+		/*	Different Screen's sizes	 */
+		/*	Different Screen's sizes	 */
+
+			@media screen and (max-width: 640px)
+			{
+				#nav {
+					background-color: cornflowerblue !important;
+					color: white !important;
+				}
+
+				.banner {
+					width: 100%;
+				}
+				#imgProfil {
+					border-radius: 4%;
+				}
+				.card {
+					width: 18rem;
+					margin-left: 28%  !important;
+					margin-top: 4% !important;
+					margin-bottom: 4% !important;
+					border: none;
+				}
+				.dropdown#optionCompte {
+					margin-bottom: 2% !important;
+				}
+
+				#left {
+					width: 100% !important;
+					text-align: center;
+					background-color: cornflowerblue;
+				}
+
+				.container#right {
+					width: 100%;
+					float: none;
+					margin-left: 8%;
+					margin-top: 1%;
+					border: none;
+				}
+				#title1Profil {
+					text-align: center;
+					margin-top: 3%;
+					margin-bottom: 2%;
+
+				}
+
+				#title2Profil {
+					text-align: center;
+					font-style: italic;
+					color: DarkGrey;
+					margin-top: 3%;
+					margin-bottom: 2%;
+				}
+
+				#testProfil1 {
+					background-color: #E6ECF0;
+					border-radius: 10px;
+					padding-bottom: 1%;
+					padding-top: 1%;
+					width: 65%;
+				}
+
+				#passForm, #emailForm {
+					display: none;
+				}
+
+				/*  Styling Tweets   */
+
+				#test {
+					background-color: #E6ECF0;
+					border-radius: 10px;
+					padding-bottom: 1%;
+					padding-top: 1%;
+					margin-top: 5%;
+					margin-left: 30%;
+					width: 65%;
+				}
+
+				#div-tweets {
+					background-color: #E6ECF0;
+					margin-left: -5%;
+					margin-right: 15%;
+				}
+
+				/*#formTweets {
+				margin-bottom: 100px;
+				}*/
+
+				.tweet {
+					background-color: White;
+					width: 125%;
+					margin-top: 2%;
+					list-style-type: none;
+					border: none;
+				}
+
+				.userNames {
+					font-weight: bold;
+				}
+				.displayName {
+					color: #657786;
+				}
+
+				.tweetDate {
+					color: #b7babd;
+					font-size: 14px;
+					list-style-type: none;
+				}
+
+				li.tweet {
+					list-style-type: none;
+				}
+
+				.form-group#col18 {
+					margin-top: 2%;
+					width: 100% !important;
+					margin-left: auto;
+					margin-right: auto;
+					display: block;
+				}
+
+				#singlebutton {
+					width: 50%;
+					margin-top: 3%;
+					margin-left: 22%;
+				}
+
+				.row {
+					width: 100%;
+				}
+				.form-row {
+					margin-top: 3%;
+					margin-right: 0% !important;
+					margin-left: 4% !important;
+				}
+
+				.headerReTweet p {
+					font-size: 12px;
+					font-style: italic;
+					float: left;
+				}
+
+				#retweet_icon_head {
+					float: left;
+					margin-right: 7px;
+					margin-top: 2px;
+				}
+
+				.clear {
+					clear: both;
+				}
+
+			}
+
+
+	@media screen and (max-width: 768px)
+	{
+		#nav {
+			background-color: cornflowerblue !important;
+			color: white !important;
+		}
+
+		.banner {
+			width: 100%;
+		}
+		#imgProfil {
+			border-radius: 4%;
+		}
+		.card {
+			width: 18rem;
+			margin-left: 3% !important;
+			margin-top: 4% !important;
+			margin-bottom: 4% !important;
+			border: none;
+			border-radius: 1%;
+		}
+		.dropdown#optionCompte {
+			margin-bottom: 2% !important;
+		}
+
+		#left {
+			width: 40%;
+			text-align: center;
+			float: left;
+			border-radius: 1%;
+			background-color: cornflowerblue;
+		}
+
+		.container#right {
+			width: 100%;
+			float: none;
+			margin-left: 8%;
+			margin-top: 1%;
+			border: none;
+		}
+		#title1Profil {
+			text-align: center;
+			margin-top: 3%;
+			margin-bottom: 2%;
+
+		}
+
+		#title2Profil {
+			text-align: center;
+			font-style: italic;
+			color: DarkGrey;
+			margin-top: 3%;
+			margin-bottom: 2%;
+		}
+
+		#testProfil1 {
+			background-color: #E6ECF0;
+			border-radius: 10px;
+			padding-bottom: 1%;
+			padding-top: 1%;
+			width: 61%;
+			margin-left: 37%;
+		}
+
+		#passForm, #emailForm {
+			display: none;
+		}
+
+		/*  Styling Tweets   */
+
+		#test {
+			background-color: #E6ECF0;
+			border-radius: 10px;
+			padding-bottom: 1%;
+			padding-top: 1%;
+			margin-top: 5%;
+			margin-left: 30%;
+			width: 65%;
+		}
+
+		#div-tweets {
+			background-color: #E6ECF0;
+			margin-left: -3%;
+			margin-right: 13%;
+		}
+
+		/*#formTweets {
+		margin-bottom: 100px;
+		}*/
+
+		.tweet {
+			background-color: White;
+			width: 120%;
+			margin-top: 2%;
+			list-style-type: none;
+			border: none;
+		}
+
+		.userNames {
+			font-weight: bold;
+		}
+		.displayName {
+			color: #657786;
+		}
+
+		.tweetDate {
+			color: #b7babd;
+			font-size: 14px;
+			list-style-type: none;
+		}
+
+		li.tweet {
+			list-style-type: none;
+		}
+
+		.form-group#col18 {
+			margin-top: 2%;
+			width: 100% !important;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+
+		#singlebutton{	
+			width: 65%;
+			margin-top: 3%;
+			margin-left: 66%;
+		}
+
+		.row {
+			width: 100%;
+		}
+		.form-row {
+			margin-top: 3%;
+			margin-right: 0% !important;
+			margin-left: 4% !important;
+		}
+
+		.headerReTweet p {
+			font-size: 12px;
+			font-style: italic;
+			float: left;
+		}
+
+		#retweet_icon_head {
+			float: left;
+			margin-right: 7px;
+			margin-top: 2px;
+		}
+
+		.clear {
+			clear: both;
+		}
+
+	}
+
+@media screen and (max-width: 960px)
+{
+	#nav {
+	background-color: cornflowerblue !important;
+	color: white !important;
+	}
+
+	.banner {
+		width: 100%;
+	}
+	#imgProfil {
+		border-radius: 4%;
+	}
+	.card {
+		width: 18rem;
+   		margin-left: 9% !important;
+    	margin-top: 4% !important;
+    	margin-bottom: 2% !important;
+		border: none;
+		border-radius: 1%;
+	}
+	.dropdown#optionCompte {
+		margin-bottom: 2% !important;
+	}
+
+	#left {
+		width: 34%;
+		text-align: center;
+		float: left;
+		border-radius: 1%;
+		background-color: cornflowerblue;
+	}
+
+	.container#right {
+		width: 60%;
+		float: left;
+		margin-left: 4%;
+		margin-top: 1%;
+		border: none;
+	}
+	#title1Profil {
+		text-align: center;
+		margin-top: 3%;
+		margin-bottom: 2%;
+	}
+
+	#title2Profil {
+		text-align: center;
+		font-style: italic;
+		color: DarkGrey;
+		margin-top: 3%;
+		margin-bottom: 2%;
+	}
+
+	#testProfil1 {
+	    background-color: #E6ECF0;
+	    border-radius: 10px;
+	    padding-bottom: 1%;
+	    padding-top: 1%;
+	    width: 61%;
+	    margin-left: 37%;
+	}
+
+	#passForm, #emailForm {
+		display: none;
+	}
+
+	     /*  Styling Tweets   */
+
+	#test {
+		background-color: #E6ECF0;
+		border-radius: 10px;
+		padding-bottom: 1%;
+		padding-top: 1%;
+		margin-top: 5%;
+		margin-left: 30%;
+		width: 65%;
+	}
+
+	#div-tweets {
+		background-color: #E6ECF0;
+		margin-left: -3%;
+	    margin-right: 13%;
+	}
+
+	/*#formTweets {
+	margin-bottom: 100px;
+	}*/
+
+	.tweet {
+		background-color: White;
+		width: 120%;
+		margin-top: 2%;
+		list-style-type: none;
+		border: none;
+	}
+
+	.userNames {
+		font-weight: bold;
+	}
+	.displayName {
+		color: #657786;
+	}
+
+	.tweetDate {
+		color: #b7babd;
+		font-size: 14px;
+		list-style-type: none;
+	}
+
+	li.tweet {
+		list-style-type: none;
+	}
+
+	.form-group#col18 {
+		margin-top: 2%;
+		width: 100% !important;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	#singlebutton {	
+		width: 65%;
+	    margin-top: 3%;
+	    margin-left: 66%;
+	}
+
+	.row {
+		width: 100%;
+	}
+	.form-row {
+		margin-top: 3%;
+	    margin-right: -10px !important;
+	    margin-left: -10px !important;
+	}
+
+	.headerReTweet p {
+		font-size: 12px;
+		font-style: italic;
+		float: left;
+	}
+
+	#retweet_icon_head {
+		float: left;
+		margin-right: 7px;
+		margin-top: 2px;
+	}
+
+	.clear {
+		clear: both;
+	}
+}

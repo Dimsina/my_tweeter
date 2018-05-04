@@ -1,0 +1,302 @@
+/*** PARTIE LOUISE ***/
+
+#div-tweets {
+	background-color: white;
+}
+
+#formTweets {
+	margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.headerTweet {
+	margin-bottom: 10px;
+}
+
+.tweet {
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	margin: 0;
+	padding: 15px;
+	background-color: #fff;
+}
+
+.button-tweet {
+	border: none;
+	background: none;
+}
+
+#delete_icon {
+	float: right;
+}
+
+#test {
+/*	box-shadow: 6px 6px 12px Black;*/
+	background-color: #E6ECF0;
+	border-radius: 10px;
+	padding-bottom: 1%;
+	padding-top: 1%;
+    width: 55%;
+}
+
+#div-tweets {
+	background-color: #E6ECF0;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.userNames {
+	font-weight: bold;
+}
+
+.tweetDate {
+	color: #b7babd;
+	font-size: 14px;
+}
+
+.displayName {
+	color: #657786;
+}
+
+li.tweet {
+	list-style: none;
+}
+
+.form-group#col18 {
+	margin-top: 2%;
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#singlebutton{
+	padding: 4%;
+	margin-top: 14%;
+    margin-left: -40%;
+}
+
+.form-row {
+	margin-right: -20px !important;
+	margin-left: 30px !important;
+}
+
+.headerReTweet p{
+	font-size: 12px;
+	font-style: italic;
+	float: left;
+}
+
+#retweet_icon_head {
+	float: left;
+	margin-right: 7px;
+	margin-top: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+/*** PARTIE ALICE ***/
+
+#nav{
+	background-color: cornflowerblue;
+	color: white !important;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 4px 20px 5px;
+}
+.navcolor {
+    color: white;
+}
+.navbar-form{
+    display: inline;
+    padding: 0px 197px;
+}
+.banner{
+	margin-top: 4%;
+	width: 100%;
+}
+#left {
+	margin-bottom: 10%;
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	background-color: cornflowerblue;
+}
+#right {
+	margin-bottom: 4%;
+    margin-left: 5%;
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border-left: 2px solid cornflowerblue;
+    border-right: 2px solid cornflowerblue;
+    margin-top: 1%;
+}
+
+#passForm, #emailForm {
+    display: none;
+}
+.bg-primary.navbar {
+    padding: 2%;
+}
+
+
+#title1 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 35%;
+}
+
+a#navInscription {
+    width: 60% !important;
+    margin-bottom: 2% !important;
+    margin-left: 35% !important;
+}
+
+#form_accueil {
+    width: 60%;
+    margin-left: 20%;
+}
+#form_sign_in {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.navbar#navInscription {
+    width: 60%;
+    margin-left: 20%;
+}
+.navbar#navInscription2 {
+     width: 60%;
+    margin-left: 20%;
+}
+
+#navbarNav {
+     margin-left: 40%;
+}
+
+#navbarNav2{
+    margin-left: 40%;
+}
+.btn#button {
+    margin-left: 40%;
+}
+.btn#button2 {
+    margin-left: 40%;
+}
+
+/*** PARTIE COCO ***/
+
+.bg-light#navBarColor {
+	background-color: CornflowerBlue !important;
+}
+
+#title1 {
+	margin-top: 3%;
+	margin-bottom: 2%;
+	margin-left: 35%;
+}
+
+#title2 {
+	font-style: italic;
+	color: DarkGrey;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	margin-left: 35%;
+}
+
+a#navInscription {
+	width: 60% !important;
+	margin-bottom: 2% !important;
+	margin-left: 35% !important;
+}
+
+#form_accueil {
+	width: 60%;
+	margin-left: 20%;
+}
+#form_sign_in {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.navbar#navInscription {
+    width: 60%;
+    margin-left: 20%;
+}
+.navbar#navInscription2 {
+	 width: 60%;
+    margin-left: 20%;
+}
+
+#navbarNav {
+	 margin-left: 40%;
+}
+#navbarNav2{
+	margin-left: 40%;
+}
+
+.btn#button {
+	margin-left: 40%;
+	background-color: CornflowerBlue !important;
+	border-color: CornflowerBlue !important;
+}
+.btn#button2 {
+	margin-left: 40%;
+	background-color: CornflowerBlue !important;
+	border-color: CornflowerBlue !important;
+}
+
+/*Styling account/profile*/
+
+#nav{
+	background-color: cornflowerblue !important;
+	color: white !important;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 4px 20px 5px;
+}
+.navcolor {
+    color: white;
+}
+.navbar-form{
+    display: inline;
+}
+#navbarDisplay{
+	/*display: block !important;*/
+}
+.btn#button3 {
+	margin-left: 40%;
+}
+.banner{
+	margin-top: 4%;
+	width: 100%;
+}
+#left {
+	margin-bottom: 10%;
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	background-color: cornflowerblue;
+}
+#right {
+	margin-bottom: 4%;
+    margin-left: 5%;
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border-left: 2px solid cornflowerblue;
+    border-right: 2px solid cornflowerblue;
+    margin-top: 1%;
+}
+
+#passForm, #emailForm {
+    display: none;
+}
